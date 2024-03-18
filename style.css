@@ -1,0 +1,75 @@
+body{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.audio-section, .lyrics-section {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.lyrics-container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+}
+header {
+    background-color: #1DB954;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    height: 30px; /* Adjust height as needed */
+    margin-right: 10px;
+}
+
+.song-photo {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.song-photo img {
+    max-width: 300px; /* Adjust size as needed */
+    border-radius: 8px;
+}
+
+audio {
+    background-color: #1DB954; /* Adjust color as needed */
+}
+
+.lyrics-container {
+    font-family: 'Roboto', sans-serif; /* Adjust font as needed */
+    /* Remaining styles from style.css */
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.highlighted {
+    background-color: yellow; /* Highlight color */
+}
+
+audio {
+    background-color: #1DB954; /* Change audio background color to blue */
+}
